@@ -282,7 +282,7 @@ with st.container():
         u_conf = st.slider("Confidence WITHOUT AI (1-10)", 1, 10, 5)
         u_score = st.slider("Predicted Score WITH AI (1-10)", 1, 10, 5)
 
-    prediction = np.clip(model.predict([[u_usage, u_dep, u_score_no, u_conf]])[0], 0, 100)
+    prediction = np.clip(model.predict([[u_usage, u_dep, u_conf, u_score]])[0], 0, 100)
     
     st.markdown(f"### Your Risk Level is: `{prediction:.2f}%`")
     st.progress(prediction / 100)
