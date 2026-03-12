@@ -36,4 +36,4 @@ The project utilizes **Linear Regression** to predict final task scores based on
 
 ## 🚀 How to Use
 1. Ensure the dataset `ai_dependency_awareness_dataset.csv` is in the project directory.
-2. Run the notebook `AI_Dependency_Awareness-7.ipynb` to execute the data cleaning, Exploratory Data Analysis (EDA), and model training.
+2. Run the notebook `AI_Dependency_Awareness.ipynb` to execute the data cleaning, Exploratory Data Analysis (EDA), and model training.
